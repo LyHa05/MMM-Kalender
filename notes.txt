@@ -1,0 +1,7 @@
+Vorgehensweise:
+1. technischer Durchstich Anzeige (Daten im MMM anzeigen)
+2. technischer Durchstich nas-Kalender (Daten aus einem Kalender im MMM anzeigen)
+3. Darstellungsform für Kalender erstellen (Tabellenform)
+4. Daten eines Kalender anzeigen und aktualisieren
+5. Modularisierung für mehrere Kalender schaffen
+6. Jahrestage gesondert in Liste anzeigen
