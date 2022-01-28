@@ -5,3 +5,12 @@ Vorgehensweise:
 4. Daten eines Kalender anzeigen und aktualisieren
 5. Modularisierung für mehrere Kalender schaffen
 6. Jahrestage gesondert in Liste anzeigen
+
+Datenauslesn von Synology Kalender:
+- allgemeine Informationen auslesen:
+  GET
+  http://myds.com:port/webapi/query.cgi?api=SYNO.API.Info&version=1&method=query&query=SYNO.Cal.Event
+- Login
+  GET --> Admindaten verwenden
+  http://myds.com:port/webapi/auth.cgi?api=SYNO.API.Auth&method=login&version=3&a
+  ccount=admin&passwd=a&format=sid&enable_syno_token=yes
